@@ -1,0 +1,20 @@
+𝕂𝟠𝕊 𝕔𝕠𝕡𝕪 𝔽𝕚𝕝𝕖 𝕒𝕟𝕕 𝔽𝕠𝕝𝕕𝕖𝕣
+
+
+# 1 Get pod Name 
+
+kubectl get pod
+
+# 2 Copy
+
+kubectl cp google.txt  web:/usr/local/apache2/ 
+
+googel : txt file
+web: PodName + path 
+
+# 3 check inside  Pod 
+kubectl exec -it web  /bin/bash
+
+cd /usr/local/apache2/ 
+
+
